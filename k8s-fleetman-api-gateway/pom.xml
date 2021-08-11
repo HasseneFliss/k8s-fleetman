@@ -72,9 +72,9 @@
 			</plugin>			
 			
  			<plugin>
-				<groupId>io.fabric8</groupId>
-				<artifactId>docker-maven-plugin</artifactId>
-				<version>0.21.0</version>
+				<!--groupId>io.fabric8</groupId> -->
+				<!--artifactId>docker-maven-plugin</artifactId> -->
+				<!--version>0.21.0</version> -->
 			
 				<configuration>			
 			        <!-- <dockerHost>unix:///var/run/docker.sock</dockerHost> -->
@@ -84,8 +84,8 @@
 			        <verbose>true</verbose>
         			<extensions>true</extensions>
 			        		     
-					<images>
-						<image>
+					<!--images> -->
+						<!--image> -->
 							<!--name>HasseneFliss/k8s-fleetman-api-gateway</name> -->
 							<!--build> -->
 								<!--dockerFileDir>${project.basedir}/src/main/docker/</dockerFileDir> -->
@@ -97,8 +97,8 @@
 									<!--tag>replicated</tag> -->
 								<!--/tags> -->
 							<!--/build> -->
-						</image>
-					</images>
+						<!--/image> -->
+					<!--/images> -->
 				</configuration>	
 				
 				<executions>
