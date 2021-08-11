@@ -86,17 +86,17 @@
 			        		     
 					<images>
 						<image>
-							<name>HasseneFliss/k8s-fleetman-api-gateway</name>
-							<build>
-								<dockerFileDir>${project.basedir}/src/main/docker/</dockerFileDir>
+							<!--name>HasseneFliss/k8s-fleetman-api-gateway</name> -->
+							<!--build> -->
+								<!--dockerFileDir>${project.basedir}/src/main/docker/</dockerFileDir> -->
 			
-								<assembly>
-									<descriptorRef>artifact</descriptorRef>
-								</assembly>
-								<tags>
-									<tag>replicated</tag>
-								</tags>
-							</build>
+								<!--assembly> -->
+									<!--descriptorRef>artifact</descriptorRef> -->
+								<!--/assembly> -->
+								<!--tags> -->
+									<!--tag>replicated</tag> -->
+								<!--/tags> -->
+							<!--/build> -->
 						</image>
 					</images>
 				</configuration>	
